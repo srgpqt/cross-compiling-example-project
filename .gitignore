@@ -1,0 +1,4 @@
+/mac/build/Example.app/Contents/MacOS
+/mac/build/Example.app/Contents/_CodeSignature
+/win/build/Example.exe
+/win/build/Example.exe.manifest

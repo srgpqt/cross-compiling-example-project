@@ -1,0 +1,20 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+	"build_systems": [
+		{
+			"name": "Project - mac",
+			"cmd": ["bash", "mac/build.sh"],
+			"working_dir": "${project_path}"
+		},
+		{
+			"name": "Project - win32",
+			"cmd": ["bash", "win/build.sh"],
+			"working_dir": "${project_path}"
+		}
+	]
+}
